@@ -18,14 +18,16 @@ Before running the code, make sure you have installed:
     git clone https://github.com/bbrunoo/Vaga2025.git
 
 2. Create and activate a virtual environment:
+    
+    Windows (cmd/PowerShell)
 
-    - Windows (cmd/PowerShell)
-    python -m venv venv
-    venv\Scripts\activate
+        python -m venv venv
+        venv\Scripts\activate
 
-    - Mac/Linux
-    python -m venv venv
-    source venv/bin/activate
+    Mac/Linux
+
+        python -m venv venv
+        source venv/bin/activate
 
 3. Install the dependencies:
     pip install os langchain_core langchain_groq json
