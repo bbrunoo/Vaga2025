@@ -40,13 +40,13 @@ Before running the code, make sure you have installed:
 
     - Or set the environment variable in the terminal:
     
-    Windows (PowerShell)
-    
-        $env:GROQ_API_KEY="your-key-here"
+        Windows (PowerShell)
+        
+            $env:GROQ_API_KEY="your-key-here"
 
-    Mac/Linux
-    
-        export GROQ_API_KEY="sua_chave_aqui"
+        Mac/Linux
+        
+            export GROQ_API_KEY="sua_chave_aqui"
 
 ## How to use
 
