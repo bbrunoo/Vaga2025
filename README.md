@@ -30,12 +30,13 @@ Before running the code, make sure you have installed:
         source venv/bin/activate
 
 3. Install the dependencies:
-    pip install os langchain_core langchain_groq json
+
+        pip install os langchain_core langchain_groq json
 
 4. Configure the api key:
     - Create a .env file in the root of the project and add
 
-        GROQ_API_KEY=your-key-here
+            GROQ_API_KEY=your-key-here
 
     - Or set the environment variable in the terminal:
     
@@ -48,7 +49,8 @@ Before running the code, make sure you have installed:
 ## How to use
 
 1. Execute the script
-    python file-name.py
+
+        python file-name.py
 
 2. Ask math questions:
     - The program will keep running until you type "exit."
